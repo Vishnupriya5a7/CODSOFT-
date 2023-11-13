@@ -19,7 +19,7 @@ public class NumberGame{
              int attempts = 0;
              boolean hasGuessedCorrecctly = false;
 
-             System.out.println("\nRound" + (rounds + 1) + ": Guess the number between " + lowerBOund + " and " + upperBound);
+             System.out.println("\nRound" + (rounds + 1) + ": Guess the number between " + lowerBound + " and " + upperBound);
 
              while(attempts < numberofAttempts && !hasGuessedCorrectly) {
                  System.ut.print("Enter your guess: ");
